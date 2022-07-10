@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+}
+
+.image {
+    padding: 50px;
+    background-color: #f3f2f1;
+    flex: 1;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.content {
+    flex: 2;
+    padding: 50px;
+}
+
+.category {
+    
+}
+
+.title {
+    margin-top: 40px;
+    font-size: 32px;
+}
+
+.author {
+    margin-top: 20px;
+    text-decoration: underline;
+    color: #a9a6a2;
+}
+
+.description {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #a9a6a2;
+    text-align: justify;
+}
+
+.back {
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 24px;
+    float: right;
+}
+.back:hover {
+    text-decoration: underline;
+}
